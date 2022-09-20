@@ -31,8 +31,9 @@ h2{
     height: 82vh;
     background-color: bisque;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 .janela{
     width: 800px;
@@ -65,4 +66,15 @@ h2{
     border: none;
     border-radius: 8px;
     box-shadow: 3px 3px .5px rgb(0, 0, 64);
+}
+.whats{
+    background-color: green;
+    color: #fff;
+    width: 600px;
+    max-width: 90%;
+    height: 3rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
 }

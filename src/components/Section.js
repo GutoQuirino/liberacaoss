@@ -1,4 +1,4 @@
-
+import Whats from "./Whats";
 
 const Section = () => {
 
@@ -11,6 +11,7 @@ const Section = () => {
                 <p>NUMERO DE LIBERACAO</p>
                 <h1></h1>
             </div>
+            <Whats/>
         </div>
 
     )
