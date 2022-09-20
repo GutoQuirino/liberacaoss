@@ -18,7 +18,7 @@ nav{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 @media(max-width:770px){
@@ -30,4 +30,27 @@ h2{
     width: 100vw;
     height: 82vh;
     background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.janela{
+    width: 60%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 1px rgb(80, 80, 4);
+}
+
+.janela input{
+    width: 200px;
+    height: 30px;
+    font-size: 35px;
+    letter-spacing: 1.5rem;
+    
 }
