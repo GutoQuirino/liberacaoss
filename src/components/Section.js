@@ -1,5 +1,5 @@
 import Whats from "./Whats";
-import {useState} from "react"
+import {useEffect, useState} from "react"
 
 const Section = () => {
 
@@ -16,6 +16,7 @@ const Section = () => {
     const [chave,setChave] = useState()
     const [numlib, setNumlib] = useState()
 
+    
     const getChave = (e) => {
         setChave(`0${e.target.value}`)
     }
@@ -32,7 +33,6 @@ const Section = () => {
     const limpa = (e) => {
         e.target.value = ''
         setNumlib('')
-        console.log(codDia)
     }
 
     return (

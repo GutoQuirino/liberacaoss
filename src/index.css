@@ -81,6 +81,7 @@ h2{
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
+    margin-top: -45px;
 }
 .whats svg{
     font-size: 30px;
