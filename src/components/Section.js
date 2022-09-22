@@ -10,7 +10,7 @@ const Section = () => {
     let somaAno = (ano - 1900)*365;
     let bisexto = (ano - 1900)/4;
     let somaMes = (mes)*30; 
-    let result =(somaAno + somaMes + dia + bisexto)+ 1;
+    let result =(somaAno + somaMes + dia + bisexto)+ 3;
     let codDia = result.toFixed(0);
 
     const [chave,setChave] = useState()
@@ -32,6 +32,7 @@ const Section = () => {
     const limpa = (e) => {
         e.target.value = ''
         setNumlib('')
+        console.log(codDia)
     }
 
     return (
